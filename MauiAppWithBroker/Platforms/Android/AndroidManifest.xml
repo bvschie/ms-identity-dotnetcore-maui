@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.mauiappwithbroker">
-	<application android:allowBackup="true" android:icon="@mipmap/appicon" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true"></application>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="nl.mirecbv.Visitorregistration" android:versionCode="1" android:versionName="1.0">
+	<application android:allowBackup="true" android:icon="@mipmap/appicon" android:supportsRtl="true" android:label="Visitorregistration"></application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.INTERNET" />
 	<queries>
 		<package android:name="com.azure.authenticator" />
-		<package android:name="UserDetailsClient.Droid" />
+		<package android:name="nl.mirecbv.Visitorregistration" />
 		<package android:name="com.microsoft.windowsintune.companyportal" />
 		<!-- Required for API Level 30 to make sure we can detect browsers
         (that don't support custom tabs) -->
@@ -20,5 +20,4 @@
 			<action android:name="android.support.customtabs.action.CustomTabsService" />
 		</intent>
 	</queries>
-	<uses-sdk android:minSdkVersion="21" />
 </manifest>
